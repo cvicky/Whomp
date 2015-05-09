@@ -1,0 +1,41 @@
+>>git config --global user.name "name name"
+to link the git file with your name
+
+>>git config --global user.email "email@email.com"
+to link the git file with your email
+
+>>mkdir directory
+to make a new repo directory
+
+>>touch file.txt
+to create a new file
+
+>>cat filename
+to open a file
+
+>>git add filename
+to tell git you want to add a file to your online rep, gets it ready to be committed
+
+>>git status
+tells you what changes have been made and haven't been committed to the online repo yet
+
+>>git add -A
+to tell git you want to add everything you made changes to instead of adding individual files, cuz that's slow and annoying
+
+>>git commit -m "I made changes"
+it's a message saying what you want to commit to git, -m indicates a message "this part is a string message"
+
+***
+>>git commit
+takes you to a window where you can write a full blown multi-line message instead of just a few words,
+to exit this, write your long message and type >>:wq 
+
+>>:wq
+I imagine this means "want quit", idkk, but it gets you out of a full message commit window and back to command line termnial
+***
+
+>>git push
+to push into git what you commited, this is the point where you can refresh your online repo and all the changes will appear updated in your repo, yay
+
+>>git pull
+this is what you type into the command line on your computer in order to pull any updated changes from your online repo and make them appear in your local repo, do this to sync up the online and local repos
